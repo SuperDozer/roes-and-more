@@ -1,0 +1,11 @@
+{
+"modId": "roes",
+"newAspects": [ "hunterGreenhorn_silkstep", "boss" ],
+"stats": {
+	"SPEED": "27",
+	"ARMOR": "5",
+	"STUNT_CHANCE": "500",
+	"HEALTH": "15",
+	"WARDING": "3"
+}
+}

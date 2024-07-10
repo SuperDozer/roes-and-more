@@ -1,0 +1,51 @@
+{
+"id": "gorgon_seacaller",
+"modId": "roes",
+"aspects": [
+	"gorgon_seacaller",
+	"monstrous",
+	"mobileMonster",
+	"monsterCanSearch",
+	"canOpenDoors",
+	"activeDefender",
+	"alive",
+	"gorgon",
+	"monsterRangedMagic|bloodbrine|balanced|0.6|6.6|3+10d100",
+	"gorgon_spawnCorruption|5.6",
+	"gorgon_spawnTentacles|5.6",
+	"AI_behavior_ranged"
+],
+"stats": {
+	"RANGE_ACCURACY": "100",
+	"SPEED": "4",
+	"ARMOR": "3",
+	"DODGE": "30",
+	"MONSTER_THREAT": "30",
+	"MELEE_ACCURACY": "110",
+	"BLOCK": "65",
+	"HEALTH": "14+1d3",
+	"PERCEPTION": "10",
+	"WARDING": "4",
+	"PHYSICAL_DAMAGE_BONUS": "0",
+	"POTENCY": "0"
+},
+"scale": [ "((3+(HEALTH/15))*[1,1.05])/4", "((3+(HEALTH/15))*[1,1.05])/4" ],
+"combatDifficulty_1": {
+	"newAspects": [ "monsterRangedMagic|bloodbrine|balanced|0.6|6.6|2+1d3" ],
+	"stats": { "ARMOR": "2" }
+},
+"combatDifficulty_10": {
+	"newAspects": [ "monsterRangedMagic|bloodbrine|balanced|0.6|6.6|3+1d2" ],
+	"stats": { "ARMOR": "2" }
+},
+"combatDifficulty_30": {
+	"stats": { "RANGE_ACCURACY": "110", "SPEED": "5", "HEALTH": "18+1d3" }
+},
+"baseColor": [ "[0.8,1.08]", "[0.8,1.08]", "[0.8,1.08]" ],
+"skin": [
+	{
+		"image": [ "gorgon/gorgon_corruptor" ]
+	}
+],
+"footprint": 4
+}

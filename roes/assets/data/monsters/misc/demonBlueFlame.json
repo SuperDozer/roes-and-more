@@ -1,0 +1,50 @@
+{
+"id": "demonBlueFlame",
+"modId": "roes",
+"notes": "Needs WIELD for melee",
+"aspects": [
+	"monstrous",
+	"mobileMonster",
+	"monsterCanSearch",
+	"activeDefender",
+	"alive",
+	"thrixl_crush",
+	"morthagi",
+	"monsterMelee|melt|balanced|1.6|3+1d2",
+	"monsterFireLine|1+1d3",
+	"immuneToFireParam|demonBlueFlame"
+],
+"stats": {
+	"RANGE_ACCURACY": "95",
+	"SPEED": "7",
+	"ARMOR": "3",
+	"DODGE": "110",
+	"MONSTER_THREAT": "15",
+	"BLOCK": "0",
+	"MELEE_ACCURACY": "95",
+	"HEALTH": "10",
+	"WARDING": "2",
+	"PERCEPTION": "10",
+	"PHYSICAL_DAMAGE_BONUS": "0",
+	"POTENCY": "0"
+},
+"scale": [ "((2+(HEALTH/6))*[0.95,1])/3", "((2+(HEALTH/6))*[0.95,1])/3" ],
+"combatDifficulty_1": {
+	"newAspects": [ "monsterMelee|melt|balanced|1.6|2+1d2" ],
+	"stats": { "ARMOR": "2", "HEALTH": "7", "PHYSICAL_DAMAGE_BONUS": "0" }
+},
+"combatDifficulty_10": {
+	"newAspects": [ "monsterMelee|melt|balanced|1.6|2+1d3" ],
+	"stats": { "ARMOR": "2", "HEALTH": "9", "PHYSICAL_DAMAGE_BONUS": "0" }
+},
+"combatDifficulty_30": {
+	"stats": { "ARMOR": "3", "HEALTH": "13" }
+},
+"baseColor": [ "[0.8,1.08]", "[0.8,1.08]", "[0.8,1.08]" ],
+"skin": [
+	{
+		"image": [ "misc/demonBlueFlame" ]
+	}
+],
+"footprint": 2
+}

@@ -1,0 +1,54 @@
+{
+"id": "bacteriodragon",
+"modId": "roes",
+"notes": "Needs WIELD for melee",
+"aspects": [
+	"thrixl_thrusk",
+	"monstrous",
+	"mobileMonster",
+	"monsterCanSearch",
+	"activeDefender",
+	"alive",
+	"thrixl",
+	"thrixl_crush",
+	"monsterMelee|pincer|balanced|1.6|3+1d2",
+	"thrixl_torceline",
+	"thrixl_thrixl",
+	"thrixl_etherburn|2",
+	"figure_largeImage"
+],
+"stats": {
+	"RANGE_ACCURACY": "100",
+	"SPEED": "5",
+	"ARMOR": "1",
+	"DODGE": "55",
+	"MONSTER_THREAT": "8",
+	"BLOCK": "40",
+	"HEALTH": "8",
+	"MELEE_ACCURACY": "100",
+	"WARDING": "1",
+	"PERCEPTION": "10",
+	"POTENCY": "0",
+	"PHYSICAL_DAMAGE_BONUS": "0"
+},
+"scale": [ "1" ],
+"combatDifficulty_1": {
+	"newAspects": [ "monsterMelee|pincer|balanced|1.6|2+1d2" ],
+	"stats": { "HEALTH": "4" }
+},
+"combatDifficulty_10": {
+	"newAspects": [ "monsterMelee|pincer|balanced|1.6|2+1d3" ],
+	"stats": { "HEALTH": "7" }
+},
+"combatDifficulty_30": {
+	"newAspects": [ "monsterMelee|pincer|balanced|1.6|3+1d2" ],
+	"stats": { "HEALTH": "10" }
+},
+"baseColor": [ "[0.8,1.08]", "[0.8,1.08]", "[0.8,1.08]" ],
+"skin": [
+	{
+		"image": [ "misc/bacteriodragon" ]
+	}
+],
+"footprint": 2
+}
